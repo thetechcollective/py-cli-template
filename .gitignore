@@ -1,0 +1,7 @@
+**/__pycache__/
+.pytest_cache/
+logs/
+*testbed
+.coverage
+.tt_cache
+_temp.token
