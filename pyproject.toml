@@ -1,0 +1,20 @@
+[project]
+name = "py-cli-template"
+version = "0.1.0"
+description = "Template setup for a Python CLI project, using uv, argparse, devcontaines, unittests ...and more"
+requires-python = ">=3.13"
+
+dependencies = [
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "pytest-cov",
+]
